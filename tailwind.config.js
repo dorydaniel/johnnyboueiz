@@ -19,6 +19,9 @@ module.exports = {
         grayish: "#939393",
         grayed: "#646464",
       }),
+      width: {
+        "1/8": "12.5%",
+      },
     },
   },
   variants: {},
