@@ -5,8 +5,8 @@ type Props = {
 
 const Header: React.SFC<Props> = ({ page, changePage }) => {
   return (
-    <div className="flex flex-wrap justify-between items-center px-4 text-grayish text-xs sm:text-xs md:text-2xl lg:text-3xl xl:text-4xl">
-      <div className="mx-2 my-4">
+    <div className="flex flex-wrap justify-between items-center text-grayish text-xs sm:text-xs md:text-2xl lg:text-3xl xl:text-4xl">
+      <div className="mr-2 my-4">
         <a href="/">
           <img
             src="/images/jblogo.jpg"
