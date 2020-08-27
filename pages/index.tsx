@@ -73,7 +73,7 @@ export default function Home() {
             ? "lily_3.jpg"
             : "lily_2.jpg"
         }')`,
-        transitionDuration: "400ms",
+        transitionDuration: "200ms",
       }}
     >
       <Head>

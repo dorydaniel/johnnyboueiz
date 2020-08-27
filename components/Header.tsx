@@ -25,6 +25,7 @@ const Header: React.SFC<Props> = ({ page, changePage }) => {
         >
           <button
             className="rounded-lg font-semibold focus:outline-none hover:text-yellowish duration-200"
+            style={{ textShadow: "2px 2px #000000" }}
             onClick={() => changePage("HOME")}
           >
             HOME
@@ -39,6 +40,7 @@ const Header: React.SFC<Props> = ({ page, changePage }) => {
         >
           <button
             className="rounded-lg font-semibold focus:outline-none hover:text-yellowish duration-200"
+            style={{ textShadow: "2px 2px #000000" }}
             onClick={() => changePage("PROJECTS")}
           >
             PROJECTS
@@ -53,6 +55,7 @@ const Header: React.SFC<Props> = ({ page, changePage }) => {
         >
           <button
             className="rounded-lg font-semibold focus:outline-none hover:text-yellowish duration-200"
+            style={{ textShadow: "2px 2px #000000" }}
             onClick={() => changePage("ABOUT")}
           >
             ABOUT
